@@ -1,0 +1,352 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: url("Fonts/Poppins-ExtraLight.ttf") format(truetype);
+  }
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -moz-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+
+}
+
+
+header img{
+    object-fit: contain;
+    margin-left:20px;
+    width: 150px;
+    height: 10;
+}
+
+.searchbar{
+    margin-left: 90px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+.searchbar input{
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+    width: 250px;
+    border: 2px solid lightgray;
+}
+
+.searchbar button{
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid lightgray;
+    width:100px;
+    cursor: pointer;
+    margin-left: 5px;
+    color: rgb(93, 91, 91);
+    background-color: white;
+}
+
+.searchbar button:hover{
+    color: black;
+   transform: scale(0.9);
+}
+
+.konten::-webkit-scrollbar{
+    display: none;
+}
+
+#finds{
+    margin-left: 180px;
+    display: none;
+    width:300px;
+    opacity: 60%;
+}
+
+header ul{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+header li{
+    padding:10px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+#logout{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#logout:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+header li button{
+    border: 1px solid white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    background-color:white;
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header li button:hover{
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+body{
+    background-color: white;    
+    display: flex;
+    justify-content: center;
+}
+
+
+.tengah{
+    display: flex;
+    justify-content: center;
+}
+#searchNotFound {
+
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: "poppins";
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+#kegallery{
+   transform: scale(0.9);
+   border: 2px solid black;
+}
+
+#ayam{
+    height: 800px;
+}
+
+.profil{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    opacity: 70%;
+
+}
+
+
+.konten{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    margin-top: 130px;
+    overflow: scroll;
+    height: 2000px;
+}
+
+
+.listgal img{
+    object-fit: cover;
+    width: 220px;
+    height: 135px;
+    margin-left:-10px;
+    margin-right: -10px;
+    border-radius: 7px;
+    margin-top: -10px;   
+}
+
+.listgal{
+    margin-left: 30px;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 310px;
+    box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -moz-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    font-family: 'Poppins';
+    font-weight: 400;
+    transition: opacity 0.3s;
+    transition: transform 0.3s;
+}
+
+
+.listgal button{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    border: 2px solid lightgray;
+    color: black;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.listgal a{
+    border-radius: 10px;
+    padding: 3px;
+    width: 100px;
+    border: 1px solid black;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.listgal a:hover{
+    background-color: black;
+    color: white    ;
+}
+
+.listgal p{
+    margin-top: -15px;
+    font-weight:bold
+}
+
+.listgal:hover{
+    opacity: 90%;
+    transform: translateY(2px);
+}
+
+.listgal button:hover{
+    background-color: black;
+    color: white;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.mask{
+    display: none;
+    z-index: 850;
+    position:absolute;
+    top: 90px;
+    left: 0;
+    z-index: 500;
+    background-color: rgba(0,0,0,0.65);
+    width: 1519px;
+    height: 8000px;
+    overflow: hidden;
+}
+
+.isikeranjang{
+    z-index: 900;
+    background: white;
+    position: fixed;
+    top: -500px;
+    left: 32%;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+
+.isikeranjang h1{
+    margin-left: 90px;
+    font-size: 41px;
+    font-family: 'Poppins';
+}
+
+table{
+    border-color: transparent;
+    font-family:'Poppins';
+    font-weight: bold;
+    margin-top: -45px;
+    margin-left: 53px;
+    width: 580px;
+    height: auto;
+    border-radius: 20px;
+}
+thead{
+    background-color: black;
+    color: white;
+}
+
+
+
+.isikeranjang img{
+    position: relative;
+    left: 570px;
+    top: -100px;
+    width: 35px;
+}
+
+.isikeranjang button{
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.isikeranjang button:hover{
+    background-color: black;
+    color: white;
+}
+
+#tombol{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+    padding: 5px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+#tombol:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: url("Fonts/Poppins-ExtraLight.ttf") format(truetype);
+  }
+  @font-face {
+    font-family: "ayam";
+    font-weight: 400;
+    src: url("Fonts/Poppins-Regular.ttf") format(truetype);
+  }
+
+
+
+
+
+body{
+   background-image: url(Asset/bekgron.jpg);
+   backdrop-filter: brightness(60%);
+   background-position-y: -100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.isian{
+    margin-left: 30px;
+}
+.form h1{
+    font-size: 60px;
+    font-family: 'ayam';
+}
+
+.isian h1{
+    visibility: hidden;
+    font-family: 'ayam';
+    font-size: 70px;
+    color: white;
+}
+
+.form{
+    margin-right: -10px;
+    margin-top: -10px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    height: 900px;
+}
+
+.form h1{
+   display: none;
+    margin-top: -10px;
+}
+.form img{
+    margin-top: 50px;
+    object-fit: cover;
+    width: 330px;
+}
+
+.form h3{
+    color: black;
+    font-family: 'ayam';
+    font-weight: bold;  
+    font-size: 40px;
+   
+}
+
+
+.form input{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-family:'Poppins';
+    font-weight: bold;
+    width: 190px;
+    
+}
+
+.form input:focus{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+#login{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+    color: black;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#login:hover{
+    background-color:black;
+    color:white;
+}
+
+.form h4{
+    color: black;
+    font-family:'Poppins';
+    font-weight: bold;
+    font-size: 15px;
+    opacity: 80%;
+}
+
+#signup{
+    background-color:white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    font-family:'Poppins';
+    font-weight: bold;
+    width: 100px;
+}
+
+#signup:hover{
+    background-color:black;
+    color:white;
+}
+  
+
+@media only screen and (max-width:600px){
+    body{
+        background-size: auto;
+    }
+    .form{
+        margin-top: 100px;
+    }
+
+}
+
+
+  
+ 

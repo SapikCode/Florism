@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: url("Fonts/Poppins-ExtraLight.ttf") format(truetype);
+  }
+  @font-face {
+    font-family: "ayam";
+    font-weight: 400;
+    src: url("Fonts/Poppins-SemiBold.ttf") format(truetype);
+  }
+  @font-face {
+    font-family: "syne";
+    font-weight: 400;
+    src: url("Fonts/static/Syne-SemiBold.ttf") format(truetype);
+  }
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -moz-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+
+}
+
+
+header img{
+    object-fit: contain;
+    margin-left:20px;
+    width: 150px;
+    height: 10;
+}
+
+header ul{
+   margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+header li{
+    padding:10px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+#logout{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#logout:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}#logout{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#logout:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+header li button{
+    border: 1px solid white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    background-color:white;
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header li button:hover{
+    border-bottom: 1px solid black;
+    color: black;
+}   
+
+body{
+    background-color:rgb(255, 255, 255);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.container .profile-pic img{
+    width: 200px;
+    border-radius: 80%;
+    height: 140px;
+    
+}
+
+.container {
+    margin-top: 100px;
+    max-width: 600px;
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid lightgray;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container h1 {
+    font-family: 'syne';
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container .profile-pic {
+    display: flex;
+    justify-content:center;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+    /* overflow: auto; */
+    background-color: #e9e3e3;
+}
+
+
+.container .details {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container .details label {
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container .details input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.container .details button {
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: background-color 0.3s;
+}
+
+.container .details button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.container .bio {
+    margin-top: 20px;
+}
+
+.container .bio textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    resize: none;
+}
+
+#labels{
+    display: none;
+}
+
+#pass {
+    margin-left: 50px;
+    display: none;
+}
+
+#ganpro{
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-top: -10px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+#fileInput{
+    padding: 8px;
+    background-color: black;
+}
+
+#labelan{
+    background-color: black;
+    border: 2px solid black;
+}

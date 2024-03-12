@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "syne";
+    font-weight: 400;
+    src: url("Fonts/static/Syne-Regular.ttf") format(truetype);
+  }
+@font-face {
+    font-family: "utama";
+    font-weight: 400;
+    src: url("Fonts/static/Syne-SemiBold.ttf") format(truetype);
+}
+
+table {
+    border-collapse: collapse;
+    width: 55%;
+    height: 300px;
+    margin-top: 8%;
+    font-size: 18px;
+    font-family: 'syne';
+    margin-left: 5%;    
+   
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: black;
+    color: white;
+   
+}
+
+td:nth-child(4) {
+    border: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    position: absolute;
+    font-size: 300%;
+    font-family: 'utama';
+}
+
+table button{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: white;
+    font-family: 'syne';
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+table button:hover{
+    background-color: black;
+    color: white;
+}

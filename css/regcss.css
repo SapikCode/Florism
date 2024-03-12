@@ -1,0 +1,218 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: url("Fonts/Poppins-ExtraLight.ttf") format(truetype);
+  }
+
+  @font-face {
+    font-family: "ayam";
+    font-weight: 400;
+    src: url("Fonts/Poppins-SemiBold.ttf") format(truetype);
+  }
+
+
+header{
+    display: none;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    opacity: 100%;
+}
+
+
+header img{
+    display: none;
+    object-fit: contain;
+    width: 150px;
+    margin-left: -750px;
+    margin-top: -10px;
+}
+
+header button{
+    visibility: hidden;
+    margin-right: 30px;
+    border-radius:20px;
+    border: 1px solid white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    background-color:white;
+    color: black;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    opacity: 100%;
+    border: 2px solid black;
+    object-fit: contain;
+    width:170px;
+}
+
+header button:hover{    
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-image: url(Asset/begreg.jpg);
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    background-size: cover;
+}
+
+.form{
+    margin-top: 120px;
+    background-color: white;
+    width:550px;
+    height: 500px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 2px 15px 6px rgba(0,0,0,0.64);
+-moz-box-shadow: 1px 2px 15px 6px rgba(0,0,0,0.64);
+box-shadow: 1px 2px 15px 6px rgba(0,0,0,0.64);
+    
+}
+
+.form h1{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-family: 'ayam';
+    font-weight: bold;
+    opacity:100%;
+    width: 400px;
+    
+}
+
+.notif{
+    text-align: center;
+    background-color: rgba(0,0,0,0.70);
+    border-radius: 20px;
+    width: 400px;
+    height: 100px;
+    position: fixed;
+    top: -115px;
+    left: 37%;
+    transition: transform 0.5s;
+}
+.notif h1{
+    font-family: 'Poppins';
+    color: white;
+}
+
+.notif button{
+    font-family: "Poppins";
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: -40px;
+    padding: 2px;
+    width: 200px;
+    color: black;
+    transition: background-color 0.3s;
+}
+
+.notif button:hover{
+    background-color: black;
+    color: white;
+}
+
+.form input{
+    margin-left: 40px;
+    padding: 8px;
+    margin-bottom: 10px;
+   border: none;
+   border-bottom: 2px solid black;
+}
+
+.form input:focus{
+    outline: none;
+    border: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.form button{
+    display: none;
+    margin-left: 40px;
+    padding: 6px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    opacity: 100%;
+    border: 2px solid black;
+    opacity: 100%;
+    transition: background-color 0.3s;
+}
+
+.form button:hover{
+    background-color: black;
+    color: white;
+}
+
+.form h2{
+    margin-top: -1px;
+    margin-left: 40px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.form h3{
+    visibility: hidden;
+}
+
+.formsatu{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.form2{
+    width: 250px;
+}
+
+#signin{
+    margin-left: -70px;
+    margin-top: 20px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    opacity: 100%;
+    border: 2px solid white;
+    opacity: 100%;
+    transition: background-color 0.3s;
+}
+
+#signin:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.baner{
+    display: none;
+    background-image: url(Asset/begreg.jpg);
+    background-position-y: -200px;
+    background-size: cover;
+    margin-left: 20px;
+    border-radius: 20px;
+    width: 570px;
+    border-radius: 10px;
+    margin-top: -80px;
+    
+}
+.baner h1{
+    display: none;
+    margin-top: 130px;
+    color: white;
+    opacity: 100%;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 470px;
+}

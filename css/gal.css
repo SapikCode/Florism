@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: url("Fonts/Poppins-ExtraLight.ttf") format(truetype);
+  }
+  @font-face {
+    font-family: "ayam";
+    font-weight: 400;
+    src: url("Fonts/static/Syne-SemiBold.ttf") format(truetype);
+  }
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -moz-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+
+}
+
+
+
+header img{
+    object-fit: contain;
+    margin-left:20px;
+    width: 150px;
+    height: 10;
+}
+
+.searchbar{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+.searchbar input{
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+    width: 300%;
+    border: 2px solid lightgray;
+}
+
+.searchbar button{
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid lightgray;
+    width:100px;
+    cursor: pointer;
+    margin-left: 5px;
+    color: rgb(93, 91, 91);
+    background-color: white;
+}
+
+.searchbar button:hover{
+    color: black;
+   transform: scale(0.9);
+}
+
+.konten::-webkit-scrollbar{
+    display: none;
+}
+
+#finds{
+    margin-left: 40%;
+    display: none;
+    width:300px;
+    opacity: 60%;
+}
+
+#searchNotFound {
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: "poppins";
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+header ul{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+header li{
+    padding:10px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+#logout{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#logout:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+header li button{
+    border: 1px solid white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    background-color:white;
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header li button:hover{
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+
+
+
+
+.konten{
+    margin-top: 100px;
+    margin-left: 6%;
+}
+
+
+
+.card {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    padding: 10px;
+    width: 270px;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -moz-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: scale(102%);
+}
+
+.card h2{
+    font-family: 'ayam';
+    font-size: 22px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body p{
+    color: black;
+    font-size: 18px;
+    margin-top: -10px;
+    font-weight: 200;
+}
+
+.card-body a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+}

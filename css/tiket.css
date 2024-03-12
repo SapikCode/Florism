@@ -1,0 +1,351 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: url("Fonts/Poppins-ExtraLight.ttf") format(truetype);
+  }
+
+  @font-face {
+    font-family: "ayam";
+    font-weight: 400;
+    src: url("Fonts/Poppins-SemiBold.ttf") format(truetype);
+  }
+
+  @font-face {
+    font-family: "syne";
+    font-weight: 400;
+    src: url("Fonts/static/Syne-Medium.ttf") format(truetype);
+  }
+
+
+header{
+    display: flex;
+   justify-content: space-between   ;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -moz-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+}
+
+
+header img{
+    object-fit: contain;
+    margin-left:20px;
+    width: 150px;
+    height: 10;
+}
+
+header ul{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+header li{
+    padding:10px;   
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+#logout{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#logout:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+header li button{
+    border: 1px solid white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    background-color:white;
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header li button:hover{
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+body{
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+
+#ketiket{
+    transform: scale(0.9);
+}
+
+
+.profil{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    opacity: 70%;
+
+}
+
+.konten{
+    background-color:white; 
+    margin-top: 80px;
+    width:1100px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+
+
+#cari{
+    padding: 5px;
+    width:50px;
+    height: 33px;
+    font-size: 15px;
+}
+
+.banner h3{
+    font-size: 50px;
+    visibility: hidden;
+}
+
+
+
+
+.konten h1{
+    color: black;
+    margin-left:50px;
+    margin-top: 20px;
+    font-family:'ayam';
+    font-size:50px;
+    width:970px;
+    border-radius: 20px;
+    padding-left: 20px;
+    
+}
+
+.konten h1::first-letter{
+    font-size: 5rem;
+}
+
+.jelajah{
+    display: flex;
+}
+
+.keranjang{
+    margin-bottom: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid lightgray ;
+    margin-left:70px;
+    width: 80%;
+    height: 230px;
+    border-radius: 20px;
+    box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -moz-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+}
+
+.card {
+    margin-left: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h3{
+    font-size: 35px;
+    font-family: 'syne';
+}
+
+.card h4{
+    font-size: 20px;
+    margin-top: -20px;
+    font-family: 'Poppins';
+}
+
+.card input{
+    visibility:hidden;
+}
+
+.card a{
+    text-align: center;
+    font-family: 'Syne';
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    transition: background-color 0.3s;
+}
+
+.card a:hover{
+    background-color: black;
+    color: white;
+}
+
+.keranjang img{
+    width: 45%;
+    border-radius: 10px;
+}
+
+.card button{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.isian{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    overflow: scroll;
+    margin-top: -45px;
+}
+
+.isian::-webkit-scrollbar{
+    display: none;
+}
+
+.hiasan{
+    border: 2px solid lightgray;
+    position: fixed;
+    left: 1050px;
+    filter: brightness(60%);
+    top: 130px;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.hiasan h2 {
+    font-size: 45px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin: 30px;
+    width: 400px;
+}
+
+.hiasan h4{
+    margin-left: 30px;
+    margin-top: -10px;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+input[type="radio"] {
+  display: none;
+}
+
+.cardss {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  max-height: 600px;
+  height: 100%;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.song-info{
+    visibility: hidden;
+}
+
+.cardss img {
+    margin-top: 20px;
+  width: 80%;
+  height: 70%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#item-1:checked ~ .cards #song-3,
+#item-2:checked ~ .cards #song-1,
+#item-3:checked ~ .cards #song-2 {
+  transform: translatex(-40%) scale(0.8);
+  opacity: 1;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-2,
+#item-2:checked ~ .cards #song-3,
+#item-3:checked ~ .cards #song-1 {
+  transform: translatex(40%) scale(0.8);
+  opacity: 1;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-1,
+#item-2:checked ~ .cards #song-2,
+#item-3:checked ~ .cards #song-3 {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+
+  img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+  }
+}
+
+

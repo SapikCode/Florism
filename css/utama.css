@@ -1,0 +1,682 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: url("Fonts/Poppins-ExtraLight.ttf") format(truetype);
+  }
+  @font-face {
+    font-family: "ayam";
+    font-weight: 400;
+    src: url("Fonts/Poppins-SemiBold.ttf") format(truetype);
+  }
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -moz-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+}
+
+
+header img{
+    object-fit: contain;
+    margin-left:20px;
+    width: 150px;
+    height: 10;
+}
+
+header ul{
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+}
+
+header li{
+    padding:10px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+#logout{
+    background-color: white;
+    color: black;
+    border-radius: 18px;
+}
+
+#logout:hover{
+    transform: scale(1.1);
+}
+
+header li button{
+    border: 1px solid white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    background-color:white;
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header li button:hover{
+   border-bottom: 1px solid black;
+    color: black;
+}
+
+body{
+    background-color: white;
+}
+
+#registerbaru{
+    background-color: black;
+    color: white;
+    opacity: 100%;
+    border-radius: 5px;
+}
+
+.konten{
+    background-color:white; 
+    width:1300px;
+    height: 8000px;
+    margin-left: 100px;
+    margin-top: 97px;
+    overflow: scroll;
+    border-radius: 10px;
+}
+
+.konten h4{
+    font-size: 50px;
+    margin-left: 40px;
+   font-family:'Poppins';
+   font-weight: 400;
+    color: white;
+    margin-top:-1px;
+    border-radius: 50px;
+    width: 1010px;
+}
+
+#cari{
+    padding: 5px;
+    width:50px;
+    height: 33px;
+    font-size: 15px;
+}
+
+.banner h3{
+    font-size: 50px;
+    visibility: hidden;
+}
+
+.banner {
+    background-image: url(Asset/headutama.jpg);
+    background-position-y: -300px;
+    background-size: cover;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 1100px;
+    margin-left: 130px;
+    border-radius: 10px;
+    object-fit: contain;
+    height: 400px;
+    box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -moz-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+}
+
+.bantu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-family: 'poppins';
+    font-size: 40px;
+    width: 600px;
+    height: 70px;
+    border-radius: 80px;
+
+}
+
+.btnban{
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.btnban img{
+    width: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: transform 0.1s;
+}
+
+.btnban img:hover{
+    transform: scale(1.1);
+}
+
+.like::-webkit-scrollbar{
+    display: none;
+}
+
+.konten::-webkit-scrollbar{
+    display: none;
+}
+
+
+#pop{
+    margin-top: 40px;
+}
+
+.bantu h5{
+    color: black;
+    border-radius: 20px;
+}
+
+.banner h4{
+    margin-top: 60px;
+    color: white;
+    font-family:'poppins';
+    font-weight: bold;
+    font-size: 40px;
+    width: 1000px;
+}
+
+.jelajah img{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+
+.konten h1{
+    margin-left:210px;
+    font-family:'poppins';
+    font-size:60px;
+    width:px;
+    padding-left: 20px;
+    
+}
+
+#obelix{
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.jelajah{
+    display: flex;
+}
+
+#kamu{
+    font-family:'poppins';
+    font-weight: bold;
+    margin-left: 100px;
+    margin-bottom: -40px;
+}
+
+#gunkid{
+    background-image: url(Asset/jelajahi.jpg);
+    background-size: fill;
+    background-position-x:-100px;
+    background-position-y: -150px;
+
+}
+
+#kulon{
+    background-image: url(Asset/kulon.jpg);
+    background-size: cover;
+}
+
+#magel{
+    background-image: url(Asset/magel.jpg);
+    background-size: cover;
+}
+
+#heh{
+    background-image: url(Asset/hehaforest.jpg);
+    background-size: cover;
+}
+
+#bupe{
+    background-image: url(Asset/pengilon.jpg);
+    background-size: cover;
+}
+
+#obe{
+    background-image: url(Asset/obelix.jpg);
+    background-size: cover;
+}
+
+#hut{
+    background-image: url(Asset/pinus.jpg);
+    background-size: cover;
+}
+
+
+
+
+.read{
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+    height: 200px;
+    background-color:white;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    opacity: 100%;
+    transition: opacity 0.3s;
+}
+
+.read:hover{
+    opacity:90%
+}
+
+.read img{
+    margin-left:20px;
+}
+
+.isi h3{
+    color: white;
+    background-color: rgba(0,0,0,0.35);
+    font-size: 20px;
+    margin-top: 159px;
+    margin-left: -31px;
+    font-family: 'ayam';
+    width: 263px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.isi button{
+    display: none;
+}
+
+#bantul{
+    background-image: url(Asset/bantul.jpg);
+    background-size: cover;
+}
+
+.like{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    width: 1200px;
+    overflow: scroll;
+}
+
+.events{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(Asset/event1.jpg);
+    background-size: cover;
+    width: 1100px;
+    height: 400px;
+    border-radius: 30px;
+    margin-left: 150px;
+    box-shadow: 1px 10px 26px -2px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 1px 10px 26px -2px rgba(0,0,0,0.71);
+    -moz-box-shadow: 1px 10px 26px -2px rgba(0,0,0,0.71);
+}
+
+.colum{
+    margin-left: -50px;
+}
+.events button{
+    font-family: 'Poppins';
+    padding: 10px;
+    font-size: 15px;
+    width: 200px;;
+    border-radius: 20px;
+    opacity: 70%;
+    margin-left: 35px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.events button:hover{
+    opacity: 100%;
+}
+
+.events h1{
+    color: white;
+    margin-left: 20px;
+    margin-top: 275px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size:20px;
+    width:525px;
+    border-radius: 20px;
+    padding-left: 20px;
+    
+}
+
+.events h2{
+    margin-top: -15px;
+    font-size: 15px;
+    color: white;
+    margin-left: 40px;
+    font-family: 'Poppins';
+}
+
+
+
+.jelajah{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+#kevent{
+    transform: scale(0.9);
+    border: 2px solid black;
+}
+
+#event2{
+    background-image: url(Asset/event2.jpg);
+    background-position: 1px;
+}
+
+#event3{
+    background-image: url(Asset/event3.jpg);
+    position: 5px;
+
+}
+
+#mari{
+    width: 700px;
+    font-family:'ayam';
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left p {
+    margin: 0;
+}
+
+.footer-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-right li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-right a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+    header{
+        /* Your styles for the header at this resolution */
+    }
+
+    header ul {
+        margin-left: 450px; /* Adjust as needed */
+    }
+
+    .konten {
+        margin-left: 50px; /* Adjust as needed */
+    }
+
+    .konten h1 {
+        margin-left: 150px; /* Adjust as needed */
+    }
+
+    /* Add more styles for other elements as needed */
+}
+
+.mask{
+    display: none;
+    position:absolute;
+    top: 90px;
+    left: 0;
+    z-index: 500;
+    background-color: rgba(0,0,0,0.65);
+    width: 1519px;
+    height: 8000px;
+    overflow: hidden;
+}
+.form h1{
+    font-size: 60px;
+    font-family: 'ayam';
+}
+
+.isian h1{
+    visibility: hidden;
+    font-family: 'ayam';
+    font-size: 70px;
+    color: white;
+}
+
+.form{
+    position: fixed;
+    z-index: 600;
+    top: -400px;
+    left: 37%;
+    margin-right: -10px;
+    margin-top: -10px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    width: 380px;
+    height: 400px;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+
+.form h1{
+   display: none;
+    margin-top: -10px;
+}
+.form img{
+    margin-top: 10px;
+    margin-left: 340px;
+    object-fit: cover;
+    width: 25px;
+}
+
+.form h3{
+    margin-top: -10px;
+    color: black;
+    font-family: 'ayam';
+    font-weight: bold;  
+    font-size: 40px;
+   
+}
+
+
+.form input{
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-family:'Poppins';
+    font-weight: bold;
+    width: 190px;
+}
+
+
+#login{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 10px;
+    width: 150px;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#login:hover{
+    background-color:white;
+    color:black;
+}
+
+.form h4{
+    color: black;
+    font-family:'Poppins';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#signup{
+    background-color:black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    font-family:'Poppins';
+    font-weight: bold;
+    width: 150px;
+    transition: background-color 0.3s;
+}
+
+#signup:hover{
+    background-color:white;
+    color:black;
+}
+
+#register{
+    margin-top: 10px;
+    border-radius:10px;
+    padding: 6px;
+    width: 150px;
+    background-color: black;
+    color:white;
+    transition: background-color 0.3s;
+}
+
+#signin{
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-top: -5px;
+    border-radius:10px;
+    padding: 6px;
+    width: 150px;
+    background-color: black;
+    color:white;
+    transition: background-color 0.3s;
+}
+
+#signin:hover{
+    background-color: white;
+    color: black;
+}
+
+#register:hover{
+    background-color: white;
+    color: black;
+}
+.alert{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    background-color: rgba(0,0,0,0.70);
+    width: 500px;
+    position: fixed;
+    top: -100px;
+    left: 35%;
+    height: 80px;
+    padding: 5px;
+    border-radius: 20px;
+    transition: transform 0.5s;
+    -webkit-box-shadow: 2px 16px 35px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 16px 35px -4px rgba(0,0,0,0.75);
+box-shadow: 2px 16px 35px -4px rgba(0,0,0,0.75);
+}
+
+.alert h1{
+    font-size: 32px;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: bold;
+
+}
+
+.alert button{
+    display: none;
+    font-family:'Poppins';
+    font-weight: bold;
+    margin-top: -20px;
+    padding: 5px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+   transition: background-color 0.3s;
+}
+
+.alert button:hover{
+    background-color: black;
+    color: white;
+}
+
+.alert  img{
+    display: none;
+    margin-left: -100px;
+    margin-top: -80px;
+    width: 250px;
+    transition: transform 1.2s;
+}
+
+
+
+@media only screen and (max-width: 1280px) {
+    /* Additional styles for smaller resolutions if necessary */
+}

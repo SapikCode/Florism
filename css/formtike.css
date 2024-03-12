@@ -1,0 +1,139 @@
+    @font-face {
+        font-family: "Poppins";
+        font-weight: 400;
+        src: url("Fonts/Poppins-ExtraLight.ttf") format(truetype);
+    }
+    @font-face {
+        font-family: "ayam";
+        font-weight: 400;
+        src: url("Fonts/Poppins-SemiBold.ttf") format(truetype);
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+    }
+
+    .konten{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        border: 2px solid lightgray;
+        border-radius: 20px;
+        box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+        -webkit-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+        -moz-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    }
+
+    .notifikasi{
+        position: absolute;
+        margin-top: 70px;
+        background-color: rgba(0,0,0,0.70);
+        z-index: 1000;
+        padding: 10px;
+        border-radius: 15px;
+        width: 30%;
+        text-align: center;
+    }
+
+    .notifikasi button{
+        margin-top: -10px;
+        padding: 5px;
+        width: 200px;
+        border-radius: 10px;
+        font-weight: bold;
+        font-family: 'Poppins';
+        background-color: white;
+        border: 1px solid white;
+        transition: background-color 0.2s;
+    }
+
+    .notifikasi button:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .notifikasi h1{
+        font-family: 'Poppins';
+        color: white;
+    }
+
+    .konten img{
+        width: 700px;
+        object-fit: cover;
+        margin-left: 10px;
+    }
+
+    .colum h1{
+        font-family: 'ayam';
+        font-size: 50px;
+        width: 500px;
+        margin-bottom: -2px;
+    }
+
+    .colum{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .colum label{
+        font-size: 30px;
+        font-family: 'Poppins';
+        font-weight: bold;
+    }
+    .colum input{
+        font-family: 'Poppins';
+        font-weight: bold;
+        width: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+        border-radius: 15px;
+    }
+
+    .colum button{
+        margin-bottom: -15px;
+        padding: 6px;
+        border-radius: 15px;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        transition: background-color 0.3s;
+    }
+
+    .colum button:hover{
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+    }
+
+    #jumlahTiket{
+        text-align: center;
+    }
+
+    #labelharga{
+        margin-top: -20px
+    }
+
+    #charga{
+        width:215px;
+        margin-bottom: 10px;
+    }
+
+    .notif{
+        text-align: center;
+        background-color: rgba(0,0,0,0.70);
+        border-radius: 20px;
+        width: 400px;
+        height: 100px;
+        position: fixed;
+        top: -115px;
+        left: 37%;
+        transition: transform 0.5s;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+    }
